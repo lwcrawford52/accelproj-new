@@ -1,0 +1,133 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.nav-menu ul li{
+display: inline;
+font-size: .8em;
+text-transform: uppercase;
+font-weight: 300;
+padding: 0px 10px 0px 10px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+    }
+    
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Featured Work */
+
+.featured-work {
+padding-bottom: 350px;
+}
+
+.featured-work h5 {
+font-family: 'Montserrat';
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 3%;
+}
+
+.homepage-featured-work {
+
+}
+
+.individual-featured-work {
+list-style-type: none;
+float: left;
+text-align: center;
+}
+
+.individual-featured-work h6 {
+font-family: 'Open Sans';
+font-weight: 400;
+
+}
+
+/* Case Studies */
+
+.case-study {
+padding-top: 80px;
+}
+ 
+.case-study-sidebar {
+        float:left;
+        width:300px;
+        margin-right:30px;
+        line-height: none;
+        }
+ 
+.case-study-images {
+        float:left;
+        width:606px;
+        }
+ 
+.case-study-images img {
+        display:block;
+        margin-bottom:50px;
+        border: 1px solid #dddddd;
+        }
+       
+.case-study-sidebar p {
+        font-size:16px;
+        padding-top: 3px;
+        }
+.case-study-sidebar a {
+/*         font-weight:bold; */
+        }
+.case-study-sidebar h6 {
+        font-size:14px;
+/*         font-weight:normal; */
+        }
+       
+.case-study-sidebar h5 {
+        font-size:14px;
+        font-weight:400;
+        color:#a1a1a1;
+        }
+       
+.case-study-sidebar h2 {
+        font-weight: 400;
+        line-height: none;
+        }
